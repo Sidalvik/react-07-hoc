@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function DateTime(props) {
     return (
@@ -7,6 +7,8 @@ function DateTime(props) {
     )
 }
 
-DateTime.propTypes = {}
+DateTime.propTypes = {
+    date: PropTypes.string.isRequired,
+}
 
 export default DateTime
