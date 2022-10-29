@@ -30,3 +30,99 @@
     font-size: 80%;
     color: #cccccc;
 }
+
+
+/* Task - 2 */
+/* ======================================= */
+#task-2 {
+    font-family: 'Mina', sans-serif;
+}
+
+#task-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#task-2 .wrap-item,
+#task-2 .item {
+    width: 430px;
+    margin: 10px;
+    padding: 10px 10px 1px;
+    background: #000000;
+}
+
+#task-2 .item-video iframe {
+    display: block;
+    margin: 0 auto;
+    width: 430px;
+    height: 240px;
+    border: none;
+}
+
+#task-2 .item-article h3 {
+    display: table-cell;
+    margin: 0 auto;
+    width: 430px;
+    height: 240px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 140%;
+    font-weight: normal;
+}
+
+#task-2 .item-article h3 a {
+    color: #ffffff;
+}
+
+#task-2 .item .views {
+    margin: 6px 0 0 0;
+    text-align: right;
+    font-size: 80%;
+    color: #cccccc;
+}
+
+#task-2 .wrap-item {
+    position: relative;
+    height: 260px;
+}
+
+#task-2 .wrap-item .label {
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border: 1px solid;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#task-2 .wrap-item .item {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#task-2 .wrap-item .item iframe,
+#task-2 .wrap-item .item h3 {
+    width: 400px;
+    height: 210px;
+}
+
+#task-2 .wrap-item-new {
+    background-color: rgba(41, 198, 31, 0.47);
+}
+
+#task-2 .wrap-item-new .label {
+    background-color: rgba(15, 145, 37, 0.72);
+    border-color: rgba(15, 145, 37, 1);
+}
+
+#task-2 .wrap-item-popular {
+    background-color: rgba(231, 0, 25, 0.64);
+}
+
+#task-2 .wrap-item-popular .label {
+    background-color: rgba(176, 0, 24, 0.73);
+    border-color: rgba(176, 0, 24, 0, 1);
+}
